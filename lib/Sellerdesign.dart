@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:loginpage/try.dart';
+
 
 import 'sellerwork.dart';
 
@@ -113,7 +113,7 @@ class Seller extends StatelessWidget {
                          onPressed: () {
                            Navigator.push(
                              context,
-                             MaterialPageRoute(builder: (context) => const trythis()),
+                             MaterialPageRoute(builder: (context) => const Sellerwork()),
                            );
                          },
                        ),
